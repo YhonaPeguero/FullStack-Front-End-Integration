@@ -18,7 +18,7 @@
 
 ### Screenshot
 
-![](./src/assets/preview.png)
+![](./src/assets/img/front-app.jpg)
 
 ## Proyecto
 
@@ -27,7 +27,6 @@ Este proyecto es una aplicación FullStack que permite la gestión de notas y la
 ### Links
 
 - Repositorio: [Solution](test)
-- Live Site URL: [Live App](example)
 
 ## Proceso
 
@@ -52,7 +51,6 @@ Para el desarrollo de este proyecto se utilizaron los siguientes recursos:
 - [Redux](https://redux.js.org/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Node.js](https://nodejs.org/en/)
-- [Maven](https://maven.apache.org/)
 
 ## Funcionalidades Clave
 
