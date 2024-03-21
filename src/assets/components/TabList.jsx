@@ -1,31 +1,25 @@
-import { useState } from 'react';
-import NoteTab from './NoteTab';
+import { useSelector, useDispatch } from 'react-redux';
+import { addNote, deleteNote, setActiveNote, updateNoteContent } from '../utils/actions';
+import NoteTab from '../components/NoteTab';
 
 const TabList = () => {
-  const [tabs, setTabs] = useState([]);
-  const [activeTab, setActiveTab] = useState('');
-  const [contents, setContents] = useState({});
+  const dispatch = useDispatch();
+  const { tabs, activeTab, contents } = useSelector(state => state);
 
-  const createTab = () => {
-    if (tabs.length < 10) {
-      const newTabId = `Nota ${tabs.length + 1}`;
-      setTabs([...tabs, newTabId]);
-      setActiveTab(newTabId);
-      setContents({ ...contents, [newTabId]: '' });
-    }
+  const handleCreateTab = () => {
+    dispatch(addNote());
   };
 
-  const deleteTab = (tabId) => {
-    const updatedTabs = tabs.filter(id => id !== tabId);
-    setTabs(updatedTabs);
-    const newContents = { ...contents };
-    delete newContents[tabId];
-    setContents(newContents);
-    setActiveTab(updatedTabs.length > 0 ? updatedTabs[0] : '');
+  const handleSetActiveTab = (tabId) => {
+    dispatch(setActiveNote(tabId));
   };
 
-  const handleContentChange = (tabId, text) => {
-    setContents({ ...contents, [tabId]: text });
+  const handleDeleteTab = (tabId) => {
+    dispatch(deleteNote(tabId));
+  };
+
+  const handleContentChange = (tabId, content) => {
+    dispatch(updateNoteContent(tabId, content));
   };
 
   return (
@@ -37,9 +31,11 @@ const TabList = () => {
               <li className="nav-item" key={tabId}>
                 <a 
                   className={`nav-link ${activeTab === tabId ? 'active' : ''}`}
-                  data-toggle="tab"
-                  role="tab"
-                  onClick={() => setActiveTab(tabId)}
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleSetActiveTab(tabId);
+                  }}
                 >
                   {tabId}
                 </a>
@@ -47,12 +43,12 @@ const TabList = () => {
             ))}
             {tabs.length < 10 && (
               <li className="nav-item">
-                <button className="nav-link btn btn-link" onClick={createTab}>+</button>
+                <button className="nav-link btn btn-link" onClick={handleCreateTab}>+</button>
               </li>
             )}
           </ul>
           {activeTab && (
-            <button className="btn btn-danger" onClick={() => deleteTab(activeTab)}>
+            <button className="btn btn-danger" onClick={() => handleDeleteTab(activeTab)}>
               Eliminar
             </button>
           )}

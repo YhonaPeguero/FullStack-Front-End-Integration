@@ -3,7 +3,7 @@ const NoteTab = ({ id, isActive, content, onContentChange }) => {
   if (!isActive) return null;
 
   return (
-    <div className={`tab-pane active`} id={id} role="tabpanel">
+    <div className={`tab-pane ${isActive ? 'active' : ''}`} id={id} role="tabpanel">
       <textarea
         className="form-control"
         value={content}

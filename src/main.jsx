@@ -1,13 +1,14 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-
-import App from './App.jsx';
+import { Provider } from 'react-redux';
+import App from './App';
+import store from './store';
 import './index.css';
 
 // Utiliza ReactDOM.render para montar tu aplicación con React 17
 ReactDOM.render(
-  <React.StrictMode>
+  // eslint-disable-next-line react/jsx-no-undef, no-undef
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );

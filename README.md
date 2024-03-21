@@ -26,7 +26,7 @@ Este proyecto es una aplicación FullStack que permite la gestión de notas y la
 
 ### Links
 
-- Repositorio: [Solution](test)
+- Repositorio: [Solution]([text](https://github.com/YhonaPeguero/front-end/master))
 
 ## Proceso
 
@@ -55,7 +55,6 @@ Para el desarrollo de este proyecto se utilizaron los siguientes recursos:
 ## Funcionalidades Clave
 
 - **Front-end**: Creación y gestión de hasta 10 notas con opciones para crear y eliminar.
-- **Back-end**: Herramienta de línea de comando para analizar archivos Java, describiendo atributos y métodos de clases.
 
 ## Instrucciones
 
