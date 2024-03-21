@@ -1,8 +1,8 @@
-# FULLSTACK APP PROJECT
+# Front-End APP PROJECT
 
 ## Tabla de Contenidos
 
-- [FULLSTACK APP PROJECT](#fullstack-app-project)
+- [Front-End APP PROJECT](#front-end-app-project)
   - [Tabla de Contenidos](#tabla-de-contenidos)
   - [Preview](#preview)
     - [Screenshot](#screenshot)
@@ -28,7 +28,7 @@
 
 ## Proyecto
 
-Este proyecto es una aplicación FullStack que permite la gestión de notas y la descripción dinámica de clases en Java. Implementado como parte de una prueba técnica, demuestra el uso de tecnologías front-end y back-end para crear una solución integrada que abarca desde la interfaz de usuario hasta la lógica de negocio y el procesamiento de datos.
+Este proyecto es una aplicación Front-End que permite la gestión de notas.
 
 ### Links
 
@@ -44,10 +44,7 @@ Este proyecto es una aplicación FullStack que permite la gestión de notas y la
   - Axios
   - Redux
   - Bootstrap (v4)
-
-- **Back-end**:
-  - Java (1.8.0)
-  - Maven (3.0.0)
+  - Vite.js (v5)
 
 ### Recursos Utilizados
 
@@ -62,6 +59,7 @@ Para el desarrollo de este proyecto se utilizaron los siguientes recursos:
 ## Funcionalidades Clave
 
 - **Front-end**: Creación y gestión de hasta 10 notas con opciones para crear y eliminar.
+----------------
 
 # Instrucciones para Ejecutar el Proyecto
 
