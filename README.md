@@ -24,7 +24,8 @@
 
 ### Screenshot
 
-![](./src/assets/img/front-app.jpg)
+![Vista Front-End Ejercicio 1](./src/assets/img/v1.jpg)
+![Vista Front-End Ejercicio 3](./src/assets/img/v2.jpg)
 
 ## Proyecto
 
@@ -76,7 +77,7 @@ Antes de comenzar, asegúrate de tener instalado **[Node.js](https://nodejs.org/
 Clona este repositorio a tu máquina local utilizando el siguiente comando de Git:
 
 ```bash
-git clone https://github.com/YhonaPeguero/front-end.git
+git clone https://github.com/YhonaPeguero/FullStack-Front-End-Integration
 ```
 
 ### 2. Cambia al directorio del proyecto.
@@ -84,7 +85,7 @@ git clone https://github.com/YhonaPeguero/front-end.git
 Clona este repositorio a tu máquina local utilizando el siguiente comando de Git:
 
 ```bash
-cd front-end
+cd FullStack-Front-End-Integration
 ```
 
 ### 3. Instalar dependencias.

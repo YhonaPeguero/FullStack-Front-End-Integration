@@ -1,5 +1,6 @@
 // eslint-disable-next-line react/prop-types
 const NoteTab = ({ id, isActive, content, onContentChange }) => {
+
   if (!isActive) return null;
 
   return (
@@ -11,6 +12,7 @@ const NoteTab = ({ id, isActive, content, onContentChange }) => {
         rows="10"
         placeholder="Escribe tu nota aquí..."
       ></textarea>
+      
     </div>
   );
 };

@@ -17,3 +17,19 @@ body {
 .nav-tabs {
     border-bottom: 1px solid #dee2e6; /* Línea debajo de todas las tabs */
 }
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.flex-one-hundred {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-toggle {
+    max-height: 40px;
+}

@@ -1,12 +1,8 @@
-import NoteTab from "./assets/components/NoteTab.jsx";
-import TabList from "./assets/components/TabList.jsx";
+import Container from "./assets/components/Container.jsx";
 
 function App() {
   return (
-    <div className="container mt-5">
-      <NoteTab />
-      <TabList/>
-    </div>
+    <Container/>
   );
 }
 export default App;

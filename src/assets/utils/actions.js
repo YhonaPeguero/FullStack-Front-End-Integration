@@ -1,7 +1,17 @@
 // src/utils/actions.js
 
-export const addNote = () => {
-  return { type: 'ADD_NOTE' };
+export const addNote = (noteTitle) => {
+  return { 
+    type: 'ADD_NOTE',
+    payload: noteTitle
+  };
+};
+
+export const addTab = (noteTitle, tableDataNow) => {
+  return { 
+    type: 'ADD_TAB',
+    payload: {newTabId2:noteTitle , tableData: tableDataNow}
+  };
 };
 
 export const updateNoteContent = (id, content) => {
@@ -22,5 +32,11 @@ export const setActiveNote = (id) => {
   return {
     type: 'SET_ACTIVE_NOTE',
     payload: id,
+  };
+};
+
+export const reset = () => {
+  return {
+    type: 'RESET',
   };
 };
