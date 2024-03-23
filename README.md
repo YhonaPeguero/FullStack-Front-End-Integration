@@ -7,11 +7,9 @@
   - [Preview](#preview)
     - [Screenshot](#screenshot)
   - [Proyecto](#proyecto)
-    - [Links](#links)
   - [Proceso](#proceso)
     - [Construido con:](#construido-con)
     - [Recursos Utilizados](#recursos-utilizados)
-  - [Funcionalidades Clave](#funcionalidades-clave)
 - [Instrucciones para Ejecutar el Proyecto](#instrucciones-para-ejecutar-el-proyecto)
   - [Requisitos Previos](#requisitos-previos)
   - [Configuración del Proyecto](#configuración-del-proyecto)
@@ -25,15 +23,10 @@
 ### Screenshot
 
 ![Vista Front-End Ejercicio 1](./src/assets/img/v1.jpg)
-![Vista Front-End Ejercicio 3](./src/assets/img/v2.jpg)
 
 ## Proyecto
 
 Este proyecto es una aplicación Front-End que permite la gestión de notas.
-
-### Links
-
-- Repositorio: [Solution]([text](https://github.com/YhonaPeguero/front-end/master))
 
 ## Proceso
 
@@ -42,10 +35,11 @@ Este proyecto es una aplicación Front-End que permite la gestión de notas.
 - **Front-end**:
   - Node.js (v16)
   - React (v17)
-  - Axios
-  - Redux
+  - Axios (v1.3)
+  - Redux (v3.7)
   - Bootstrap (v4)
   - Vite.js (v5)
+  - Vistual Studio Code
 
 ### Recursos Utilizados
 
@@ -56,15 +50,15 @@ Para el desarrollo de este proyecto se utilizaron los siguientes recursos:
 - [Bootstrap](https://getbootstrap.com/)
 - [Node.js](https://nodejs.org/en/)
 - [Vite.js](https://vitejs.dev/guide/)
-
-## Funcionalidades Clave
-
-- **Front-end**: Creación y gestión de hasta 10 notas con opciones para crear y eliminar.
-----------------
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 # Instrucciones para Ejecutar el Proyecto
 
-Este proyecto es una aplicación front-end desarrollada con React. Para ejecutarla en tu entorno de desarrollo local, sigue estos pasos cuidadosamente.
+Este proyecto es una aplicación front-end desarrollada con React. Cuenta con 2 versiones. La primera es la que sale de forma principal donde puedes crear hasta 10 notas.
+
+La segunda versión se activa al dar Clic en el botón `` Integration version `` y al ingresar una clase de Java permite describir los atributos y las firmas de los métodos que contenga la clase pública. 
+
+Para usar la primera version del ejercicio front-end basta realizar los siguientes pasos en tu entorno de desarrollo local:
 
 ## Requisitos Previos
 
@@ -103,3 +97,8 @@ Con las dependencias ya instaladas, puedes iniciar la aplicación en modo de des
 ```bash
 npm run dev
 ```
+
+Para poder ejecutar la segunda version que esta disponible en la UI al hacer Clic en `` Integration version `` debes seguir los pasos
+indicados del siguiente repositorio:
+
+``` https://github.com/YhonaPeguero/FullStack-Back-End-Integration ```
