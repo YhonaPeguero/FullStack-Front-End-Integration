@@ -105,4 +105,4 @@ npm run dev
 Para ejecutar con éxito la intregracion con el Backend que esta disponible en la UI al hacer Clic en `` Integration version `` debes seguir los pasos
 indicados que estan en el siguiente repositorio para que pueda funcionar bien:
 
-[" CLIC AQUÍ PARA IR AL REPOSITORIO BACKEND "](https://github.com/YhonaPeguero/FullStack-Back-End-Integration)
+[" CLIC AQUÍ PARA IR AL REPOSITORIO BACKEND "](https://github.com/YhonaPeguero/V1-back-end)
