@@ -17,6 +17,7 @@
     - [2. Cambia al directorio del proyecto.](#2-cambia-al-directorio-del-proyecto)
     - [3. Instalar dependencias.](#3-instalar-dependencias)
     - [4. Ejecutar la Aplicación](#4-ejecutar-la-aplicación)
+- [IMPORTANTE LEER:](#importante-leer)
 
 ## Preview
 
@@ -97,8 +98,11 @@ Con las dependencias ya instaladas, puedes iniciar la aplicación en modo de des
 ```bash
 npm run dev
 ```
+---
 
-Para poder ejecutar la segunda version que esta disponible en la UI al hacer Clic en `` Integration version `` debes seguir los pasos
-indicados del siguiente repositorio:
+# IMPORTANTE LEER: 
+
+Para ejecutar con éxito la intregracion con el Backend que esta disponible en la UI al hacer Clic en `` Integration version `` debes seguir los pasos
+indicados que estan en el siguiente repositorio para que pueda funcionar bien:
 
 ``` https://github.com/YhonaPeguero/FullStack-Back-End-Integration ```
